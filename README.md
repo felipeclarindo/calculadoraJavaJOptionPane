@@ -1,44 +1,41 @@
-# Calculadora em Java
+🌍 [Leia em Português](README.pt-BR.md)
 
-Este é um simples programa de calculadora em Java que permite ao usuário realizar operações básicas de matemática, como soma, subtração, multiplicação e divisão.
+# Java Calculator
 
-## Funcionalidades
+This is a simple calculator program in Java with `JOptionPane` that allows the user to perform basic math operations such as sum, subtraction, multiplication, and division.
 
-- Menu interativo que exibe as opções disponíveis para o usuário.
-- Tratamento de exceção para divisão por zero.
-- Operações de soma, subtração, multiplicação e divisão.
+## Features
 
-## Como usar
+- Interactive menu that displays the options available to the user.
+- Exception treatment for division by zero.
+- Operations of sum, subtraction, multiplication and division.
 
-1. Clone o repositório para o seu computador.
-2. Abra o projeto em sua IDE Java preferida.
-3. Execute a classe `Main` para iniciar a calculadora.
-4. Siga as instruções no menu para realizar as operações desejadas.
+## Steps to install and run:
 
-## Exemplo de Uso
+1. Clone the repository:
 
-```java
-Calculadora calc = new Calculadora();
-
-// Exibindo o menu
-System.out.println(calc.menu());
-
-// Realizando uma soma
-int resultadoSoma = calc.somar(10, 5);
-System.out.println("A soma de 10 e 5 é: " + resultadoSoma);
+```bash
+git clone https://github.com/felipeclarindo/calculator-java-joptionpane.git
 ```
 
-## Contribuições
+2. Open the project in your Java IDE of choice.
 
-Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+3. Run the `Main` class in `src/Main.java` to start the calculator.
 
-## Autor
+4. Follow the instructions in the menu to perform the desired operations.
 
-Desenvolvido por **Felipe Clarindo**.  
-  - [LinkedIn](https://www.linkedin.com/in/felipe-clarindo-934578289/)  
-  - [Instagram](https://www.instagram.com/lipethegoat)  
-  - [GitHub](https://github.com/felipeclarindo)  
+## Contribution
 
-## Licença
+Contributions are welcome! If you have suggestions for improvements, feel free to open an issue or submit a pull request.
 
-Este projeto está licenciado sob a [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
+## Author
+
+**Felipe Clarindo**
+
+- [LinkedIn](https://www.linkedin.com/in/felipeclarindo)
+- [Instagram](https://www.instagram.com/lipethecoder)
+- [GitHub](https://github.com/felipeclarindo)
+
+## License
+
+This project is licensed under the [GNU Affero License](https://www.gnu.org/licenses/agpl-3.0.html).
